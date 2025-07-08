@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #4C30B7, #B662D4);
+    height: 100vh;
+    color: white;
+    letter-spacing: 1px;
+}
+
+#cabecalho{
+    background: #2e208f;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu{
+    margin-left: 100px;
+}
+
+#sobre, #contato{
+    margin-left: 30px;
+}
+
+p{
+    font-weight: bold;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    padding: 5px;
+}
+
+#linha1{
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    margin-top: 3px;
+    margin-left: -15px;
+    position: absolute;
+    display: flex;
+}
+
+#linha2{
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    margin-left: 73px;
+    margin-top: -15px;
+    position: absolute;
+    display: flex;
+}
+
+#linha3{
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    margin-left: 170px;
+    margin-top: 3px;
+    margin-top: -15px;
+    position: absolute;
+    display: flex;
+}
+
+main{
+    text-align: center;
+    margin-top: 120px;
+    font-size: 18px;
+}
+
+#texto1{
+    margin-top: 70px;
+}
+
+#html5{
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    padding: 4px;
+}
+#css3{
+    background-color: green;
+    font-weight: bold;
+    padding: 4px;
+}
+
+#avaliar{
+    text-decoration: underline;
+}
+
+#botao{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10%;
+}
+
+#aprendi, #fechar{
+    font-weight: bold;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#fechar{
+    margin-left: 30px;
+}

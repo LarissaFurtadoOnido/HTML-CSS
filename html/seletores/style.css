@@ -1,0 +1,40 @@
+*{
+    /*CSS reset*/
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 15px;
+}
+
+.elementos{
+    border: solid 2px black;
+    height: 300px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+.i1{
+    background-color: red;
+}
+
+.i2{
+    background-color: green;
+}
+
+.i3{
+    background-color: blue;
+}
+
+.i4{
+    background-color: blueviolet;
+}

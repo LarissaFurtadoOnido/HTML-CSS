@@ -1,0 +1,23 @@
+#um{
+            border: dashed 1px black;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 30%;
+            margin-top: 20px;
+            margin-left: 35%;
+        }
+        #dois{
+            border: solid 1px black;
+            background-color: #98bf21;
+            margin: 5px 20px 20px 20px;
+        }
+        #tres{
+            border: solid 1px black;
+            background-color: #ffffff;
+            margin: 5px 20px 20px 20px;
+            padding: 5px 20px 20px 20px;
+        }
+        #quatro{
+            border: dashed 1px black;
+            padding: 5px 50px 50px 50px;
+        }

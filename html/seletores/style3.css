@@ -1,0 +1,24 @@
+/*espaço é descendente*/
+/* > é filho (está dentro da tag)*/
+/* + adjacente (vem logo depois)*/
+/* ~ irmãos (todos na mesma sequencia)*/
+div > p{
+    border: solid 1px;
+}
+
+
+/*primeira letra maior*/
+p::first-letter{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+/*quando selecionar o texto vai alterar para a cor do background-color e somente do p da div, 
+pois é filho da div*/
+div > p::selection{
+    background-color: yellow;
+}
+
+a:link{
+    background-color: green;
+}
