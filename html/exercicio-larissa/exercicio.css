@@ -1,26 +1,31 @@
 #porc{
-    text-decoration: underline;
+    text-decoration: underline; /*decoração do texto: underline-sublinhado abaixo do texto 
+                                                      overline-acima do texto
+                                                      line-through-linha no meio do texto 
+                                                      underline overline-linha acima e abaixo do texto*/
 }
+
 #boxCarregamento{
     background-color: rgb(173, 171, 171);
-    border-radius: 5px;
-    width: 95%;
-    padding: 3px;
-    margin: 0px 10px 0px 10px;
+    border-radius: 5px;/*borda arredondada*/
+    width: 95%;/*largura*/
+    padding: 3px;/*espaçamento do texto até a borda*/
+    margin: 0px 10px 0px 10px;/*espaçamento de fora pra fora (Vinicius que disse)
+                                top,right,bottom,left*/
 }
 
 #boxCarregamento2{
     background-color: rgb(255, 4, 4);
     width: 64%;
     border-radius: 5px;
-    text-align: center;
-    font-weight: bold;
+    text-align: center; /*alinhamento do texto*/
+    font-weight: bold;/*define grossura da fonte (Vinicius que disse) */
 }
 
 .box2{
-    box-shadow: 5px 5px 5px rgb(150, 150, 150);
+    box-shadow: 5px 5px 5px rgb(150, 150, 150);/*sombra do elemento: left,bottom,espalhamento, cor*/
     width: 25%;
-    height: 200px;
+    height: 200px;/*altura*/
     margin-left: 40%;
     margin-top: 100px;
     
