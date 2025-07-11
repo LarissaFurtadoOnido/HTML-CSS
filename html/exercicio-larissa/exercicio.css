@@ -82,4 +82,9 @@
             border: dashed 1px black;
             padding: 5px 50px 50px 50px;
         }
+
+
+            font-size: 50px; tamanho do texto
+			font-family: sans-serif; tipo da fonte, serif é quando tem perninha e sans-serif é sem as perninhas
+			text-transform: uppercase; tudo maiúsculo
 */
