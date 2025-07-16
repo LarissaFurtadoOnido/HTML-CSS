@@ -11,9 +11,19 @@ body{
 .elementos{
     border: solid 2px black;
     height: 300px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
+    display: flex; /*elemento flexivel*/
+    flex-direction: row-reverse;/*define a direção dos itens flexivel 
+                                  row-horizontalmente, 
+                                  row-reverse:horizontal em ordem reversa, 
+                                  column-verticalmente, 
+                                  column-reverse: verticalmente em ordem reversa*/
+    
+    justify-content: center;/*alinha os itens flexiveis horizontalmente que estao dentro de uma tag(container, pensa literalmente num container real), quando nao usam todo o espaço, 
+                              flex-start: posiciona os itens no inicio do container, 
+                              flex-end: no final, center: no centro, 
+                              space-around: espaços iguais entre os itens e as bordas, 
+                              space-between: espaço somente entre os itens, 
+                              space-evenly: espaço igual ao redor*/
     align-items: center;
 }
 
