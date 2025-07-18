@@ -13,9 +13,9 @@ body{
     height: 300px;
     display: flex; /*elemento flexivel*/
     flex-direction: row-reverse;/*define a direção dos itens flexivel 
-                                  row-horizontalmente, 
-                                  row-reverse:horizontal em ordem reversa, 
-                                  column-verticalmente, 
+                                  row: horizontalmente, 
+                                  row-reverse: horizontal em ordem reversa, 
+                                  column: verticalmente, 
                                   column-reverse: verticalmente em ordem reversa*/
     
     justify-content: center;/*alinha os itens flexiveis horizontalmente que estao dentro de um container (pensa literalmente num container real), quando nao usam todo o espaço, 
