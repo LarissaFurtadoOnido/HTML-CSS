@@ -18,17 +18,23 @@ body{
                                   column-verticalmente, 
                                   column-reverse: verticalmente em ordem reversa*/
     
-    justify-content: center;/*alinha os itens flexiveis horizontalmente que estao dentro de uma tag(container, pensa literalmente num container real), quando nao usam todo o espaço, 
+    justify-content: center;/*alinha os itens flexiveis horizontalmente que estao dentro de um container (pensa literalmente num container real), quando nao usam todo o espaço, 
                               flex-start: posiciona os itens no inicio do container, 
                               flex-end: no final, center: no centro, 
                               space-around: espaços iguais entre os itens e as bordas, 
                               space-between: espaço somente entre os itens, 
                               space-evenly: espaço igual ao redor*/
-    align-items: center;
+    
+    align-items: center; /*alinha os itens flexiveis verticalmente que estão dentro de um container, 
+                           stretch: os itens são esticados para caber no recipiente
+                           center: Os itens estão posicionados no centro do contêiner
+                           flex-start: Os itens estão posicionados no início do contêiner
+                           flex-end: Os itens estão posicionados no final do cantainer*/
 }
 
 .item{
-    text-align: center;
+    text-align: center;/*alinha o texto
+                         */
     padding: 15px;
     color: white;
 }
