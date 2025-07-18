@@ -34,6 +34,10 @@ body{
 
 .item{
     text-align: center;/*alinha o texto
+                         left
+                         right
+                         center
+                         justify
                          */
     padding: 15px;
     color: white;
