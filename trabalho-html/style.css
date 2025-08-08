@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*rgb(85, 26, 139)*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body{
+    background-color: rgb(18, 18, 18);
+    color: white;
+    margin: 50px;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;
+}
+
+#cabecalho{
+    display: flex;
+    height: 12vh;
+    font-family: "Intel One Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#lateral{
+    width: 20%;
+}
+
+#link{
+    display: flex;
+    width: 100%;
+    margin-left: 10%;
+    color: rgb(114, 50, 173);
+}
+
+a:visited{
+    color: rgb(114, 50, 173);
+}
+
+#link > a{
+    margin-left: 60px;
+    text-decoration: none;
+}
+
+#nomecentral{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 70px;
+    position: relative;
+    font-family: "Intel One Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.animate__animated.animate__fadeIn{
+    --animate-duration: 2s;
+}
+
+#textoanimado{
+    display: inline-block;
+    left: calc(75vh + 5px);
+    position: absolute;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid rgb(114, 50, 173);
+    color: rgb(114, 50, 173);
+    opacity: 0;
+    animation: marcador .5s step-end infinite, 
+               sobrenome 4s steps(22, end) 1s forwards infinite;
+}
+
+@keyframes marcador{
+    50%{
+        border-right-color: transparent;
+    }
+} 
+
+@keyframes sobrenome{
+    0%{
+        width: 0;
+        opacity: 1;
+    }
+    100% {
+        width: 7.5ch;
+        opacity: 1;
+    }
+}
+
+#home h2,
+#habilidades h2,
+#projetos h2,
+#contato h2{
+    font-family: "Intel One Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal; 
+}
+
+#home{
+    height: 100vh;
+}
+
+#sobre{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5%;
+    line-height: 2;
+}
+
+#sobre > p{
+    width: 55%;
+}
+
+/*habilidades*/
+#iconlinguagens{
+    display: flex;
+    justify-content: center;
+    color: rgb(114, 50, 173);
+    align-items: center;
+}
+
+#iconlinguagens i:nth-child(n+2){
+    margin-left: 35px;
+}
+
+#habilidades{
+    border-top: 2px solid rgb(114, 50, 173);
+    height: 100vh;
+    display: flex;
+}
+
+#habilidades > h2,
+#projetos > h2,
+#contato > h2{
+    margin-top: 10%;
+}
+
+/*projetos*/
+#projetos{
+    border-top: 2px solid rgb(114, 50, 173);
+    height: 100vh;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.container{
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(114, 50, 173);
+    border-radius: 15px;
+    width: 220px;
+    height: 350px;
+}
+
+.container > span{
+    display: flex;
+    justify-content: center;
+    padding-top: 23vh;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: "Intel One Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.card-body{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    background: #8a89899a;
+    backdrop-filter: blur(6px);
+    color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 2s;
+}
+
+.card-body > p{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container:hover .card-body{
+    right: 0;
+}
+
+/*contato*/
+#contato{
+    height: 90vh;
+    border-top: 2px solid rgb(114, 50, 173);
+    display: flex;
+}
+
+#iconcontato{
+    display: flex;
+    justify-content: center;
+    color: rgb(114, 50, 173);
+    align-items: center;
+}
+
+#iconcontato > a{
+    text-decoration: none;
+}
+
+#iconcontato a:nth-child(n+2){
+    margin-left: 35px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer > p{
+    color: white;
+    
+}
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 1024px) {
+    body {
+        margin: 20px;
+    }
+
+    #cabecalho {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        text-align: center;
+        gap: 10px;
+    }
+
+    #link {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 0;
+        gap: 10px;
+    }
+
+    #link > a {
+        margin-left: 0;
+        font-size: 1rem;
+    }
+
+    #nomecentral {
+        margin-top: 10%;
+        font-size: 40px;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .animate__animated.animate__fadeIn{
+        --animate-duration: 2s;
+    }
+
+  #textoanimado{
+    display: flex;
+    margin-right: 50vh;
+    width: auto;
+    border-right: 2px solid rgb(114, 50, 173);
+    color: rgb(114, 50, 173);
+    opacity: 0;
+    animation: marcador .5s step-end infinite, 
+               sobrenome 4s steps(22, end) 1s forwards infinite;
+}
+
+    #sobre {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    #sobre > p {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    #iconlinguagens,
+    #iconcontato {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    #habilidades,
+    #projetos,
+    #contato {
+        flex-direction: column;
+        height: auto;
+        padding: 40px 10px;
+    }
+
+    .card {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .container {
+        width: 90%;
+        height: auto;
+        max-width: 300px;
+    }
+
+    .card-body > p {
+        font-size: 18px;
+    }
+
+    footer p {
+        font-size: 14px;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
