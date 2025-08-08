@@ -1,0 +1,91 @@
+#porc{
+    text-decoration: underline; /*decoração do texto: underline-sublinhado abaixo do texto 
+                                                      overline-acima do texto
+                                                      line-through-linha no meio do texto 
+                                                      underline overline-linha acima e abaixo do texto*/
+}
+
+#boxCarregamento{
+    background-color: rgb(173, 171, 171);
+    border-radius: 5px;/*borda arredondada*/
+    width: 95%;/*largura*/
+    padding: 3px;/*espaçamento do texto até a borda*/
+    margin: 0px 10px 0px 10px;/*espaçamento de fora pra fora (Vinicius que disse)
+                                top,right,bottom,left*/
+}
+
+#boxCarregamento2{
+    background-color: rgb(255, 4, 4);
+    width: 64%;
+    border-radius: 5px;
+    text-align: center; /*alinhamento do texto*/
+    font-weight: bold;/*define grossura da fonte (Vinicius que disse) */
+}
+
+.box2{
+    box-shadow: 5px 5px 5px rgb(150, 150, 150);/*sombra do elemento: left,bottom,espalhamento, cor*/
+    width: 25%;
+    height: 200px;/*altura*/
+    margin-left: 40%;
+    margin-top: 100px;
+    
+}
+#titulo{
+    text-decoration: underline;
+}
+#paragrafo{
+    background-color: black;
+    color: #ffffff;
+    padding: 2px;
+}
+
+#retangulo1{
+    background-color: blue;
+    height: 15px;
+    width: 95%;
+    margin: 0px 10px 0px 10px;
+}
+
+#retangulo2{
+    background-color: green;
+    height: 15px;
+    width: 95%;
+    margin: 2px 10px 0px 10px;
+}
+
+#p2{
+    text-align: right;
+    margin-right: 40px;
+}
+
+/*
+        #um{
+            border: dashed 1px black; dotted-pontilhado / solid- linha / dashed-tracejado, tamanho da borda, cor
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif; fonte do texto
+            width: 30%;
+            margin-top: 20px;
+            margin-left: 35%;
+        }
+        #dois{
+            border: solid 1px black; 
+            background-color: #98bf21;
+            margin: 5px 20px 20px 20px;
+        }
+        #tres{
+            border: solid 1px black;
+            background-color: #ffffff;
+            margin: 5px 20px 20px 20px;
+            padding: 5px 20px 20px 20px;
+        }
+        #quatro{
+            border: dashed 1px black;
+            padding: 5px 50px 50px 50px;
+        }
+
+
+        font-size: 50px; tamanho do texto
+	font-family: sans-serif; tipo da fonte, serif é quando tem perninha e sans-serif é sem as perninhas
+	text-transform: uppercase; tudo maiúsculo
+	text-shadow: 3px 3px 10px #0000FF; sombreamento do texto
+*/

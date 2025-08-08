@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.colunas{
+    display: flex;
+}
+
+
+.coluna{
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.column1{
+    background-color: brown;
+    width: 70vw;
+}
+
+.column2{
+    background-color: blueviolet;
+    width: 30vw;
+}
